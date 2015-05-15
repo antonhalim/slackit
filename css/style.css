@@ -1,0 +1,23 @@
+html {
+  overflow: auto; }
+
+body {
+  width: 300px;
+  min-height: 400px;
+  height: auto;
+  overflow: hidden;
+  padding: 0px 10px 10px 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #555459; }
+
+	#api-token-view {
+	  width: 100%; }
+	  #api-token-view button#OAuth {
+	    width: 100%;
+	    margin: 15px 0 20px 0;
+	    background-color: #FFBC7B;
+	    color: #fff;
+	    letter-spacing: 1px;
+	    font-size: 20px;
+	    font-weight: 400; }
