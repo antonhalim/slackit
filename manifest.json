@@ -9,9 +9,12 @@
   ],
 	"content_scripts": [{
     "js": [
-	               "jquery.js",
-	              ],
-
+       "jquery.min.js",
+       "jquery-ui.min.js",
+       "mycode.js"
+      ],
+		"css": [ "jquery-ui.css" ],
+		"run_at": "document_end"}],
   "browser_action": {
    "default_icon": "slack.png",
    "default_popup": "popup.html"
